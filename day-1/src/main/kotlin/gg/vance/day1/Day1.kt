@@ -1,11 +1,10 @@
 package gg.vance.day1
 
-class Day1 {
+class Day1(inputPath: String) {
     private val elves = mutableListOf<Elf>()
 
     init {
-        val input =
-            this::class.java.getResourceAsStream("/puzzle-input") ?: throw Exception("puzzle input is empty")
+        val input = this::class.java.getResourceAsStream(inputPath) ?: throw Exception("puzzle input is empty")
 
         var food = mutableListOf<Int>()
 
@@ -17,6 +16,8 @@ class Day1 {
                 food = mutableListOf()
             }
         }
+
+        elves.add(Elf(food.toTypedArray()))
     }
 
     fun part1(): Int = elves.maxBy { it.totalCalories() }.totalCalories()
