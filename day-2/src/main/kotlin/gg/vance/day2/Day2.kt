@@ -52,7 +52,7 @@ class Day2(private val inputPath: String) {
                 else -> throw Exception("failed to parse second code")
             }
 
-            score += when(second) {
+            score += when (second) {
                 Outcome.Loss -> Outcome.Loss.points + first.beats().points
                 Outcome.Draw -> Outcome.Draw.points + first.points
                 Outcome.Win -> Outcome.Win.points + first.loses().points

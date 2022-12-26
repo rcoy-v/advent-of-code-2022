@@ -12,6 +12,7 @@ class Day3Test {
 
         assertEquals(expected, puzzle.part1())
     }
+
     @ParameterizedTest
     @CsvSource("/example-input,70", "/puzzle-input,2616")
     fun part2(inputPath: String, expected: Int) {
