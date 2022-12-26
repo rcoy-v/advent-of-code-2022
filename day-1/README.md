@@ -1,6 +1,5 @@
 # Day 1
 
-
 adventofcode.com
 Day 1 - Advent of Code 2022
 3–4 minutes
