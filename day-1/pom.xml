@@ -11,7 +11,4 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <properties>
-        <exec.mainClass>gg.vance.MainKt</exec.mainClass>
-    </properties>
 </project>
