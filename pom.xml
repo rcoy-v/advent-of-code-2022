@@ -16,11 +16,12 @@
         <module>day-2</module>
         <module>day-3</module>
         <module>day-4</module>
+        <module>day-5</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>1.7.22</kotlin.version>
+        <kotlin.version>1.8.10</kotlin.version>
         <kotlin.code.style>official</kotlin.code.style>
         <junit.version>5.9.1</junit.version>
         <surefire.version>3.0.0-M7</surefire.version>
